@@ -6,6 +6,8 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 const Product = (props) => {
   const { name, img, price, seller, ratings } = props.product;
   const handelAddToCart = props.handelAddToCart;
+  
+  const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
 
 
 
