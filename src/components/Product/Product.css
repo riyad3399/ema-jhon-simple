@@ -30,7 +30,7 @@
 }
 
 .product-info p {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .btn-cart {
@@ -44,4 +44,13 @@
 }
 .btn-cart:hover{
     background-color: orange;
+}
+
+.product-price{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
 }

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Product = (props) => {
-  const { name, img, price, quantity, seller, ratings } = props.product;
+  const { name, img, price, seller, ratings } = props.product;
   const handelAddToCart = props.handelAddToCart;
 
 
@@ -14,7 +14,7 @@ const Product = (props) => {
       <img src={img && img} alt="" />
       <div className="product-info">
         <h6 className="product-name">{name ? name : "Not Found"}</h6>
-        <p>Pirce: ${price ? price : "Not Found"}</p>
+        <p className="product-price">Pirce: ${price ? price : "Not Found"}</p>
         <p>Manufacturer: {seller ? seller : "Not Found"}</p>
         <p>Rating: {ratings ? ratings : "Not Found"} stars</p>
       </div>
