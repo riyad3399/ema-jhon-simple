@@ -1,11 +1,23 @@
-.shop-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
 
-.products-container{
-    margin: 195px 80px 0px 100px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+.products-container {
+  margin: 195px 80px 0px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.card-container {
+  background: rgba(255, 153, 0, 0.3);
+  text-align: center;
+}
+
+.card-container:hover{
+    background-color: orange;
+}
+.card-container p {
+  margin-top: 100px;
 }
