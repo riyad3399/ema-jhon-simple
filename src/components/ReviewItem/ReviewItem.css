@@ -1,0 +1,54 @@
+.review-item {
+  width: 570px;
+  border: 1px solid hotpink;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 8px 25px 8px 8px;
+  display: flex;
+  align-items: center;
+}
+.review-item img {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.review-item .product-title {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+}
+
+.review-details {
+  flex-grow: 1;
+}
+
+.review-details p {
+  margin: 0 15px 10px;
+}
+
+.orange-text {
+  color: orange;
+}
+
+/* delete btn style */
+.btn-delete {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background: rgba(235, 87, 87, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon{
+    color: #EB5757;
+    font-size: 25px;
+}
+
+.btn-delete:hover{
+    background: rgba(235, 87, 87, 0.5);
+
+}
